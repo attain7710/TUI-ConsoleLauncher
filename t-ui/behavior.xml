@@ -19,7 +19,7 @@
 <battery_medium value="50"/>
 <battery_low value="15"/>
 <device_format value="%d: %u"/>
-<ram_format value="Available RAM: %avgb GB of %totgb GB (%av%%)"/>
+<ram_format value="RAM: %avgb GB of %totgb GB (%av%%)"/>
 <battery_format value="%(Charging: /)%v%"/>
 <storage_format value="Internal Storage: %iavgb GB / %itotgb GB (%iav%%)"/>
 <network_info_format value="%(WiFi - %wn/%[Mobile Data: %d3/No Internet access])"/>
