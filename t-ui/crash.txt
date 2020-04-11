@@ -1,0 +1,26 @@
+
+
+java.lang.StringIndexOutOfBoundsException: length=1; index=-1
+	at java.lang.String.charAt(Native Method)
+	at ohi.andre.consolelauncher.managers.suggestions.i.a(Unknown Source:106)
+	at ohi.andre.consolelauncher.managers.suggestions.e.onTextChanged(Unknown Source:6)
+	at android.widget.TextView.sendOnTextChanged(Unknown Source:19)
+	at android.widget.TextView.handleTextChanged(Unknown Source:43)
+	at android.widget.TextView$ChangeWatcher.onTextChanged(Unknown Source:2)
+	at android.text.SpannableStringBuilder.sendTextChanged(Unknown Source:12)
+	at android.text.SpannableStringBuilder.replace(Unknown Source:231)
+	at android.text.SpannableStringBuilder.replace(Unknown Source:9)
+	at android.text.SpannableStringBuilder.replace(Unknown Source:0)
+	at android.view.inputmethod.BaseInputConnection.replaceText(Unknown Source:121)
+	at android.view.inputmethod.BaseInputConnection.commitText(Unknown Source:1)
+	at com.android.internal.widget.EditableInputConnection.commitText(Unknown Source:39)
+	at com.android.internal.view.IInputConnectionWrapper.executeMessage(Unknown Source:437)
+	at com.android.internal.view.IInputConnectionWrapper$MyHandler.handleMessage(Unknown Source:2)
+	at android.os.Handler.dispatchMessage(Unknown Source:21)
+	at android.os.Looper.loop(Unknown Source:155)
+	at android.app.ActivityThread.main(Unknown Source:65)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Unknown Source:11)
+	at com.android.internal.os.ZygoteInit.main(Unknown Source:345)
+
+----------------------------

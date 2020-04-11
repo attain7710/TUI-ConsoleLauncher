@@ -4,35 +4,66 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <ohi.andre.consolelauncher.tuils.OutlineTextView android:id="@+id/tv0"
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="10">
+
+        <ohi.andre.consolelauncher.tuils.OutlineTextView android:id="@+id/tv0"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="5"
+          android:focusable="true"
+          android:focusableInTouchMode="true"
+          android:clickable="true"
+
+          android:scrollbarAlwaysDrawVerticalTrack="true"
+          android:scrollbars="vertical" />
+
+        <ImageButton
+          android:id="@+id/dot_button"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="5"
+          android:layout_gravity="right"
+          android:scaleType="fitEnd"
+          style="@style/ToolsBar"
+          android:src="@drawable/ic_3_dot_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:clickable="true"
+        android:weightSum="10"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal">
 
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:scrollbars="vertical" />
+        <ohi.andre.consolelauncher.tuils.OutlineTextView android:id="@+id/tv1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="7"
+          android:focusable="true"
+          android:focusableInTouchMode="true"
+          android:clickable="true"
 
-    <ohi.andre.consolelauncher.tuils.OutlineTextView android:id="@+id/tv1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:clickable="true"
+          android:scrollbarAlwaysDrawVerticalTrack="true"
+          android:scrollbars="vertical" />
 
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:scrollbars="vertical" />
+        <ohi.andre.consolelauncher.tuils.OutlineTextView android:id="@+id/tv2"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="3"
+          android:focusable="true"
+          android:focusableInTouchMode="true"
+          android:clickable="true"
+          android:gravity="right"
 
-    <ohi.andre.consolelauncher.tuils.OutlineTextView android:id="@+id/tv2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:clickable="true"
+          android:scrollbarAlwaysDrawVerticalTrack="true"
+          android:scrollbars="vertical" />
 
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:scrollbars="vertical" />
+    </LinearLayout>
 
     <ohi.andre.consolelauncher.tuils.OutlineTextView android:id="@+id/tv3"
         android:layout_width="match_parent"
